@@ -1,3 +1,5 @@
+# 通过本地编译的形式运行
+# 可以随时修改源代码后 repackage 然后重新构建本地镜像
 version: '3.3'
 services:
 
