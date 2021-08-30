@@ -16,6 +16,7 @@ server:
 # SPRING PROFILES
 spring:
     profiles:
+
         active: '@profileActive@'
     application:
         name: blog-admin

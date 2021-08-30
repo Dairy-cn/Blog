@@ -80,7 +80,7 @@ INSERT INTO `dblog`.`sys_link` VALUES ('1', 'https://docs.zhyd.me', '张亚东�
 # 清空系统通知表
 TRUNCATE TABLE `dblog`.`sys_notice`;
 # 初始化系统通知
-INSERT INTO `dblog`.`sys_notice` VALUES (1, 1, 'RELEASE', 'OneBlog开源博客', 'OneBlog开源博客，一款超好用的Java版开源博客', now(), now());
+INSERT INTO `dblog`.`sys_notice` VALUES (1, 1, 'RELEASE', 'sbxx', 'sbxx，一款超好用的Java版开源博客', now(), now());
 INSERT INTO `dblog`.`sys_notice` VALUES (2, 1, 'RELEASE', '问题反馈', '在使用过程中，有问题请先参考相关文档，确实无法解决的，请优先提Issue，感谢各位老铁', now(), now());
 
 # 清空系统模板表
