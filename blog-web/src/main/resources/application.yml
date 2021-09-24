@@ -76,4 +76,4 @@ pagehelper:
     reasonable: true
     support-methods-arguments: true
     params: count=countSql
-filePath: E:/fileoneblog/
+filePath: /data/file/
