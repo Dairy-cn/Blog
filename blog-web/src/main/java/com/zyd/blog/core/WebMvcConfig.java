@@ -2,8 +2,11 @@ package com.zyd.blog.core;
 
 import com.zyd.blog.core.intercepter.BraumIntercepter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
@@ -14,11 +17,21 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @since 1.8
  */
 @Configuration
-public class WebMvcConfig implements WebMvcConfigurer {
+public class WebMvcConfig extends WebMvcConfigurationSupport {
 
     @Autowired
     BraumIntercepter braumIntercepter;
-
+    
+    
+    @Value("${filePath}")
+    private String filePath;
+    
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        //其中OTA表示访问的前缀。"file:D:/OTA/"是文件真实的存储路径
+        registry.addResourceHandler("/oneblog/**").addResourceLocations("file:" + filePath);
+    }
+    
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(braumIntercepter)
