@@ -9,7 +9,7 @@
         <i class="fa fa-angle-right"></i>留言板
     </nav>
     <div class="row guestbook-body">
-        <@blogHeader title="留言板"></@blogHeader>
+<#--        <@blogHeader title="留言板"></@blogHeader>-->
         <#if config.guestbookHtml?? && (config.guestbookHtml?length > 0)>
             ${config.guestbookHtml!}
         <#else >
@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="blockquote-slidebar">
-                        <i class="fa fa-lightbulb-o fa-fw"></i> 对于违反以上规定的成员/评论，一经发现，直接屏蔽评论内容，并拉黑发布评论的 IP，同时将保留相关证据，在需要的时候提供给国家有关部门，以备查验。<strong>相信我！删除/拉黑真的只需要0.1秒！</strong>
+                        <i class="fa fa-lightbulb-o fa-fw"></i> 对于违反以上规定的成员/评论，一经发现，直接屏蔽评论内容，并拉黑发布评论的 IP，同时将保留相关证据，在需要的时候提供给国家有关部门，以备查验。
                     </div>
                 </div>
             </div>

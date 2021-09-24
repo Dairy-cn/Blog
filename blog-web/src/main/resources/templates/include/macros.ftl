@@ -62,22 +62,22 @@
 </#macro>
 
 
-<#-- blog-header -->
-<#macro blogHeader title="Header" weiboName="@我的微博">
-    <div class="col-sm-12 blog-main">
-        <div class="blog-header">
-            <h4>${title}</h4>
-            <p class="blog-description" id="hitokoto"></p>
-            <div>
-                <a href="javascript:void(0);" target="_blank" title="点击QQ联系我" onclick="window.open('tencent://message/?uin=${config.qq}&amp;Site=www.${config.domain}&amp;Menu=yes')" rel="external nofollow"><i class="fa fa fa-qq fa-fw"></i>QQ联系</a>
-                |
-                <a href="mailto:${config.authorEmail}" target="_blank" title="点击给我发邮件" rel="external nofollow"><i class="fa fa fa-envelope fa-fw"></i>邮箱联系</a>
-                |
-                <a href="${config.weibo}" target="_blank" title="点击查看我的微博" rel="external nofollow"><i class="fa fa fa-weibo fa-fw"></i>${weiboName}</a>
-            </div>
-        </div>
-    </div>
-</#macro>
+<#--&lt;#&ndash; blog-header &ndash;&gt;-->
+<#--<#macro blogHeader title="Header" weiboName="@我的微博">-->
+<#--    <div class="col-sm-12 blog-main">-->
+<#--        <div class="blog-header">-->
+<#--            <h4>${title}</h4>-->
+<#--            <p class="blog-description" id="hitokoto"></p>-->
+<#--            <div>-->
+<#--                <a href="javascript:void(0);" target="_blank" title="点击QQ联系我" onclick="window.open('tencent://message/?uin=${config.qq}&amp;Site=www.${config.domain}&amp;Menu=yes')" rel="external nofollow"><i class="fa fa fa-qq fa-fw"></i>QQ联系</a>-->
+<#--                |-->
+<#--                <a href="mailto:${config.authorEmail}" target="_blank" title="点击给我发邮件" rel="external nofollow"><i class="fa fa fa-envelope fa-fw"></i>邮箱联系</a>-->
+<#--                |-->
+<#--                <a href="${config.weibo}" target="_blank" title="点击查看我的微博" rel="external nofollow"><i class="fa fa fa-weibo fa-fw"></i>${weiboName}</a>-->
+<#--            </div>-->
+<#--        </div>-->
+<#--    </div>-->
+<#--</#macro>-->
 
 <#-- 页面顶部、菜单下方提示栏 -->
 <#macro prompt>

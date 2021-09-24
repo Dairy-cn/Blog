@@ -8,8 +8,8 @@
         </div>
         <div class="menu-topmenu-container pull-right">
             <ul class="list-unstyled list-inline pull-left">
-                <li><a href="${config.siteUrl}/about" class="menu_a" title="关于博客" data-toggle="tooltip" data-placement="bottom">关于本站</a></li>
-                <li><a href="${config.siteUrl}/links" class="menu_a" title="友情链接" data-toggle="tooltip" data-placement="bottom">友情链接</a></li>
+<#--                <li><a href="${config.siteUrl}/about" class="menu_a" title="关于博客" data-toggle="tooltip" data-placement="bottom">关于本站</a></li>-->
+<#--                <li><a href="${config.siteUrl}/links" class="menu_a" title="友情链接" data-toggle="tooltip" data-placement="bottom">友情链接</a></li>-->
             </ul>
             <#if user??>
                 <ul class="list-unstyled list-inline nav navbar-nav">
@@ -34,7 +34,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <ul class="list-inline">
-                    <li><h4 class="modal-title" id="oauthTitle">登录</h4></li>
+<#--                    <li><h4 class="modal-title" id="oauthTitle">登录</h4></li>-->
                     <li><a href="javascript:$.alert.info('没用，别点了！我就没打算开发这个功能。Just to show you~~~');"><h4 class="modal-title" id="myModalLabel">注册</h4></a></li>
                 </ul>
             </div>
@@ -57,11 +57,11 @@
                             </#if>
                         </@zhydTag>
                     </ul>
-                    <div class="oauth-line">
-                        <span style="font-size: 12px">
-                            Powered by <a href="https://gitee.com/fujieid/jap" target="_blank">JustAuthPlus(JAP)</a>
-                        </span>
-                    </div>
+<#--                    <div class="oauth-line">-->
+<#--                        <span style="font-size: 12px">-->
+<#--                            Powered by <a href="https://gitee.com/fujieid/jap" target="_blank">JustAuthPlus(JAP)</a>-->
+<#--                        </span>-->
+<#--                    </div>-->
                 </div>
             </div>
         </div>

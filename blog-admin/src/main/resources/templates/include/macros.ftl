@@ -95,7 +95,7 @@
                 <div class="scrolltext">
                     <ul class="list-unstyled" id="notice-box">
                         <li class="scrolltext-title">
-                           其实我们可以将所有的问题归结为两种：一种是没饭吃饿出来的；一种是吃饱了撑出来的。
+<#--                           其实我们可以将所有的问题归结为两种：一种是没饭吃饿出来的；一种是吃饱了撑出来的。-->
                         </li>
                     </ul>
                 </div>
