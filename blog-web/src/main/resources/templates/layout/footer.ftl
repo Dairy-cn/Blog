@@ -131,22 +131,22 @@
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12 col-md-12 col-lg-12">
-                    <p><#if config.copyright!>${config.copyright} |</#if> Powered by <a href="https://gitee.com/yadong.zhang/DBlog" title="sbxx是一款简洁美观、自适应的Java博客系统..." data-toggle="tooltip" data-placement="right" target="_blank"><i>OneBlog</i></a>  </p>
-                    <#if url?? && (url == "index")>
-                        <div class="inline external-links">
-                            <a>友情链接：</a>
-                            <#if indexLinkList?? && (indexLinkList?size > 0)>
-                                <#list indexLinkList as item>
-                                    <a href="${item.url}" target="_blank" title="${item.description!}" data-toggle="tooltip" data-placement="right">
-                                        ${item.name!}
-                                    </a>
-                                </#list>
-                                <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip" data-placement="right"><i class="fa fa-plus"></i>更多链接</a>
-                            <#else>
-                                <a href="${config.siteUrl}/links" title="申请友链" data-toggle="tooltip" data-placement="right">申请友链</a>
-                            </#if>
-                        </div>
-                    </#if>
+                    <p><#if config.copyright!>${config.copyright} |</#if> Powered by <a  title="sbxx是一款简洁美观、自适应的Java博客系统..." data-toggle="tooltip" data-placement="right" target="_blank"><i>Sbxx</i></a>  </p>
+<#--                    <#if url?? && (url == "index")>-->
+<#--                        <div class="inline external-links">-->
+<#--                            <a>友情链接：</a>-->
+<#--                            <#if indexLinkList?? && (indexLinkList?size > 0)>-->
+<#--                                <#list indexLinkList as item>-->
+<#--                                    <a href="${item.url}" target="_blank" title="${item.description!}" data-toggle="tooltip" data-placement="right">-->
+<#--                                        ${item.name!}-->
+<#--                                    </a>-->
+<#--                                </#list>-->
+<#--                                <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip" data-placement="right"><i class="fa fa-plus"></i>更多链接</a>-->
+<#--                            <#else>-->
+<#--                                <a href="${config.siteUrl}/links" title="申请友链" data-toggle="tooltip" data-placement="right">申请友链</a>-->
+<#--                            </#if>-->
+<#--                        </div>-->
+<#--                    </#if>-->
 
                 </div>
             </div>

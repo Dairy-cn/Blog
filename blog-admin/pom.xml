@@ -44,6 +44,10 @@
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
 
+
+
+Ll
+
     </dependencies>
 
     <build>
@@ -135,7 +139,7 @@
                 <version>${dockerfile-maven-plugin.version}</version>
                 <configuration>
                     <skip>false</skip>
-                    <repository>registry.cn-hangzhou.aliyuncs.com/registry-dair/blog-admin</repository>
+                    <repository>registry.cn-hangzhou.aliyuncs.com/registry-dairy/blog-admin</repository>
                     <tag>${project.version}</tag>
                     <contextDirectory>${project.build.directory}</contextDirectory>
                 </configuration>

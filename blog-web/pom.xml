@@ -115,7 +115,7 @@
 				<version>${dockerfile-maven-plugin.version}</version>
 				<configuration>
 					<skip>false</skip>
-					<repository>registry.cn-hangzhou.aliyuncs.com/registry-dair/blog-web</repository>
+					<repository>registry.cn-hangzhou.aliyuncs.com/registry-dairy/blog-web</repository>
 					<tag>${project.version}</tag>
 					<contextDirectory>${project.build.directory}</contextDirectory>
 				</configuration>
