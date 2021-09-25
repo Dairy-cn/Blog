@@ -147,13 +147,13 @@
                             <#list hotList as item>
                             <li class="line-li">
                                 <div class="line-container">
-                                    <div class="line-left">
-                                        <#if item.coverImage??>
-                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${item.coverImage}" onerror="this.src='${config.staticWebSite}/img/default.png'"width="50" height="50" rel="external nofollow"/>
-                                        <#else>
-                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${config.staticWebSite}/img/favicon.ico" onerror="this.src='${config.staticWebSite}/img/default.png'"width="50" height="50" rel="external nofollow"/>
-                                        </#if>
-                                    </div>
+<#--                                    <div class="line-left">-->
+<#--                                        <#if item.coverImage??>-->
+<#--                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${item.coverImage}" onerror="this.src='${config.staticWebSite}/img/default.png'"width="50" height="50" rel="external nofollow"/>-->
+<#--                                        <#else>-->
+<#--                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${config.staticWebSite}/img/favicon.ico" onerror="this.src='${config.staticWebSite}/img/default.png'"width="50" height="50" rel="external nofollow"/>-->
+<#--                                        </#if>-->
+<#--                                    </div>-->
                                     <div class="line-right">
                                         <div class="text">
                                             <a href="${config.siteUrl}/article/${item.id?c}" data-original-title="${item.lookCount?c}人浏览了该文章" data-toggle="tooltip" data-placement="bottom">
