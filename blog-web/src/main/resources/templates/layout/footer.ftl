@@ -110,7 +110,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12 col-md-12 col-lg-12">
-<#--                        <p>-->
+                        <p> <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">${config.recordNumber}</a></p>-->
+                        <#--                        <p>-->
 <#--                        <ul class="list-unstyled list-inline">-->
 <#--                            <li>其他连接：</li>-->
 <#--                            <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-map-o fa-fw"></i>网站地图</a></li>-->
